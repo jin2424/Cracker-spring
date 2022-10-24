@@ -24,10 +24,11 @@
 ## 5. 맡은 기능
 - 커뮤니티 페이지 댓글 CRUD
     - @Transactional 사용
+    - Controller, Service, Repository Layered Architecture 사용
+    - DTO의 데이터 반환을 통한 유지보수 증가
 - Spring Data JPA 활용
     - 커뮤니티 페이지 댓글 시간 순 정렬
     - **LocalDateTime**의 표준값을 한글화 코드 적용 ( [velog](https://velog.io/@rhrhkdwls24/TIL-22.07.11) 블로그 정리 )
-- DTO 를 사용해 유지보수 증가
 
 ## 5. 고객 피드백
 <summary>고객 피드백 내용</summary>
